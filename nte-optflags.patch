@@ -1,0 +1,11 @@
+diff -durN nte.orig/src/Makefile.template nte/src/Makefile.template
+--- nte.orig/src/Makefile.template	Wed Jun 13 19:41:03 2001
++++ nte/src/Makefile.template	Wed Jun 13 19:42:19 2001
+@@ -1,6 +1,6 @@
+ CC       = gcc
+ INCLUDES = -I/usr/X11R6/include -I/usr/include/ucl
+-CFLAGS   = -Wall -Wno-implicit-int -Werror $(INCLUDES) -DPROTOTYPES -DHAVE_UNISTD_H -DDEFINED_ERRLIST -D_intel_
++CFLAGS   = -Wall -Wno-implicit-int $(OPTFLAGS) $(INCLUDES) -DPROTOTYPES -DHAVE_UNISTD_H -DDEFINED_ERRLIST -D_intel_
+ LIB_DIR  = 
+ LIBS     = -ltk -ltcl -luclmmbase -lm -L/usr/X11R6/lib -lX11 -ldl 
+ OBJS     = init.o text_pane.o typeface_fns.o ui_fns.o ui_init.o user_fns.o main.o\

@@ -1,0 +1,12 @@
+diff -durN nte.orig/src/Makefile.template nte/src/Makefile.template
+--- nte.orig/src/Makefile.template	Wed Jun 13 19:54:00 2001
++++ nte/src/Makefile.template	Wed Jun 13 19:54:47 2001
+@@ -8,7 +8,7 @@
+            protocol.o network_write.o network_read.o ds_fns.o parse_packet.o ids.o \
+            sliding_key.o rtx.o missing.o participants.o bitmaps.o \
+            recent.o nt_ui.o generic_tcl.o www_ui.o www_fns.o nt_help.o \
+-           save_struct.o iohandler.o debug.o canvas_ext.o font_ext.o
++           save_struct.o iohandler.o debug.o
+ ENCOBJS = crypt.o
+ HELPINCLUDES=-I.
+ 
