@@ -46,12 +46,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 install linux/nte $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} COPYRIGHT
 
-gzip -9nf src/{CHANGES,KNOWN_BUGS} COPYRIGHT
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc src/CHANGES* src/KNOWN_BUGS* COPYRIGHT*
+%doc src/{CHANGES,KNOWN_BUGS} COPYRIGHT
 %attr(755,root,root) %{_bindir}/*
