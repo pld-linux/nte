@@ -48,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc src/CHANGES* src/KNOWN_BUGS* src/CHANGES*
+%doc src/CHANGES* src/KNOWN_BUGS* COPYRIGHT*
 %attr(755,root,root) %{_bindir}/*
