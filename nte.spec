@@ -2,11 +2,7 @@ Summary:	UCL Network Text Editor
 Name:		nte
 Version:	1.7.0
 Release:	1
-Group:		Libraries
-Group(de):	Libraries
-Group(es):	Bibliotecas
-Group(fr):	Librairies
-Group(pl):	Biblioteki
+Group:		X11/Applications/Multimedia
 Source0:	http://www-mice.cs.ucl.ac.uk/multimedia/software/%{name}/%{version}/%{name}-%{version}.tar.gz
 Source1:	%{name}-COPYRIGHT
 Patch0:		%{name}-paths.patch
@@ -19,6 +15,8 @@ BuildRequires:	ucl-common-devel
 BuildRequires:	tcl-devel >= 8.3
 BuildRequires:	tk-devel >= 8.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_prefix	/usr/X11R6
 
 %description
 NTE is a shared text editor designed for use on the Mbone.
