@@ -6,6 +6,7 @@ Release:	1
 License:	custom
 Group:		X11/Applications/Multimedia
 Source0:	http://www-mice.cs.ucl.ac.uk/multimedia/software/%{name}/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	cd94f5c588ab31c630a1ef98f5007e28
 Source1:	%{name}-COPYRIGHT
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-optflags.patch
