@@ -3,7 +3,7 @@ Summary(pl):	Sieciowy edytor tekstu
 Name:		nte
 Version:	1.7.0
 Release:	1
-License:	Custom
+License:	custom
 Group:		X11/Applications/Multimedia
 Source0:	http://www-mice.cs.ucl.ac.uk/multimedia/software/%{name}/%{version}/%{name}-%{version}.tar.gz
 Source1:	%{name}-COPYRIGHT
