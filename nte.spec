@@ -1,4 +1,5 @@
 Summary:	UCL Network Text Editor
+Summary(pl):	Sieciowy edytor tekstu
 Name:		nte
 Version:	1.7.0
 Release:	1
@@ -22,6 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 NTE is a shared text editor designed for use on the Mbone.
+
+%description -l pl
+NTE to sieciowy edytor tekstu, stworzony do u¿ytku w Mbone.
 
 %prep
 %setup -qn %{name}
