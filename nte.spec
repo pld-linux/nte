@@ -1,5 +1,5 @@
 Summary:	UCL Network Text Editor
-Summary(pl.UTF-8):   Sieciowy edytor tekstu
+Summary(pl.UTF-8):	Sieciowy edytor tekstu
 Name:		nte
 Version:	1.7.0
 Release:	1
